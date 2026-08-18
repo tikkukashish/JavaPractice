@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<suite name="ReqRes API Test Suite">
+
+    <test name="GET Tests">
+        <classes>
+            <class name="com.reqres.tests.UserGetTests"/>
+        </classes>
+    </test>
+
+
+    <test name="Pagination Tests">
+        <classes>
+            <class name="com.reqres.tests.PaginationTests"/>
+        </classes>
+    </test>
+
+
+    <test name="POST Tests">
+        <classes>
+            <class name="com.reqres.tests.UserPostTests"/>
+        </classes>
+    </test>
+
+
+    <test name="PUT Tests">
+        <classes>
+            <class name="com.reqres.tests.UserUpdateTests"/>
+        </classes>
+    </test>
+
+
+    <test name="PATCH Tests">
+        <classes>
+            <class name="com.reqres.tests.UserPatchTests"/>
+        </classes>
+    </test>
+
+
+    <test name="DELETE Tests">
+        <classes>
+            <class name="com.reqres.tests.UserDeleteTests"/>
+        </classes>
+    </test>
+
+
+    <test name="Negative Tests">
+        <classes>
+            <class name="com.reqres.tests.UserNegativeTests"/>
+        </classes>
+    </test>
+
+
+    <test name="Header Tests">
+        <classes>
+            <class name="com.reqres.tests.HeaderTests"/>
+        </classes>
+    </test>
+
+
+    <test name="Response Time Tests">
+        <classes>
+            <class name="com.reqres.tests.ResponseTimeTests"/>
+        </classes>
+    </test>
+
+
+    <test name="Data Validation Tests">
+        <classes>
+            <class name="com.reqres.tests.DataValidationTests"/>
+        </classes>
+    </test>
+
+</suite>
